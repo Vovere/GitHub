@@ -1,0 +1,46 @@
+
+body {
+    font-size: 14px;
+    font-family: "Times New Roman";
+    color: #6B4C41;
+    background: #F2EBC4 url(http://www.htmldog.com/images/bg.gif) no-repeat top left;
+
+}
+h1 {
+    padding: 20px;
+    color: #F2ECBF;
+	  background-color: #6B4C41;
+    border: 5px #EDEDBE;
+    box-shadow: 10px 10px 3px 1px #E6B053;
+}
+p {
+    color: #6B4C41;
+    letter-spacing: 0,5em;
+    word-spacing: 0.2em;
+    line-height: 1em;
+    text-align: left;
+}
+#navigation {
+    float: left;
+    width: 200px;
+}
+#navigation2 {
+    float: right;
+    width: 200px;
+}
+#content {
+    float: center;
+    margin-left: 200px;
+}
+a {
+    color: blue;
+    text-decoration: underline;
+    text-transform: lowercase;;
+}
+table {
+  color: #F2ECBF;
+  background-color: #6B4C41;
+  border: 5px #EDEDBE;
+  box-shadow: 10px 10px 3px 1px #E6B053;
+  font-weight: bold;
+}
