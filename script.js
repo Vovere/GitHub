@@ -1,4 +1,4 @@
-var surname = prompt('Greetings friend, may I enquire as to your surname?');
+var surname = prompt('Labas ! koks tavo vardas ?');
 var surname;
 var age;
 name = "Andy";
@@ -21,7 +21,7 @@ var person = {
 };
 var dog = {};
 
-dog.bark = function () { alert("Woof!"); };
+dog.bark = function () { alert("Au au !"); };
 
 person.name = {
     first: "Jeanne",
