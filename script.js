@@ -5,6 +5,13 @@ name = "Andy";
 age = 43;
 
 
+$(document).ready(function(){
+ $("#interactive-button").on("click", function(){
+ alert("Wow");
+ });
+});
+
+
 var i = 1;
 while (i < 10) {
     alert(i);
