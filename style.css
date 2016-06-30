@@ -1,30 +1,32 @@
 
 body {
     font-size: 14px;
-    font-family: "Times New Roman";
-    color: #6B4C41;
-    background: #F2EBC4 url(http://www.htmldog.com/images/bg.gif) no-repeat top left;
+    font-family: "Bookman old style";
+    color: #676767;
+    background: #f0f0f0
 
 }
 h1 {
     padding: 20px;
-    color: #F2ECBF;
-	  background-color: #6B4C41;
-    border: 5px #EDEDBE;
-    box-shadow: 10px 10px 3px 1px #E6B053;
+    color: #d7f090;
+	  background-color: #478E8E;
+    border: 5px #420911;
+    box-shadow: 15px 15px 6px 4px #FA9F1B;
 }
 p {
-    color: #6B4C41;
+    color: #424242;
     letter-spacing: 0,5em;
     word-spacing: 0.2em;
     line-height: 1em;
     text-align: left;
 }
 #navigation {
-    float: left;
-    width: 200px;
+  display: block;
+  float: left;
+  width: 200px;
 }
 #navigation2 {
+  display: block;
     float: right;
     width: 150px;
 }
@@ -33,12 +35,14 @@ p {
     margin-left: 200px;
 }
 #Button1 {
-	border-radius: 5px;
-	border: 3px solid #6495ED;
-	background-color: #BCD2EE;
-	height: 50px;
+  border-radius: 5px;
+	border: 3px solid #420911;
+	background-color: #98DACD;
+	height: 30px;
 	width: 120px;
-	margin: auto;
+  float: center;
+  margin-left: 200px;
+text-align: center;
 }
 
 
@@ -51,9 +55,9 @@ a {
     text-transform: lowercase;;
 }
 table {
-  color: #F2ECBF;
-  background-color: #6B4C41;
-  border: 5px #EDEDBE;
-  box-shadow: 10px 10px 3px 1px #E6B053;
+  color: #FA9F1B;
+  background-color: #478E8E;
+  border: 5px #FA9F1B;
+  box-shadow: 10px 10px 3px 1px #d7f090;
   font-weight: bold;
 }
