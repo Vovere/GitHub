@@ -1,0 +1,24 @@
+
+
+   <form action="demo_form.asp">
+     <label for="email">Email</label>
+      <textarea rows="1" cols="20">Email address</textarea>
+     <input type="radio" name="email" id="email" value="email"><br>
+     <label for="name">Username</label>
+     <textarea rows="1" cols="20">Your name</textarea>
+     <input type="radio" name="name" id="name" value="name"><br>
+     <label for="password">Password</label>
+     <textarea rows="1" cols="20">Your Password</textarea>
+     <input type="radio" name="password" id="password" value="password"><br><br>
+   </form>
+
+   $(‘.button’).on(‘click’, function(){
+   var email = $(‘#email’).val();
+   var name = $(‘#name’).val();
+   var email = $(‘#password’).val();
+   });
+
+   <div class=“success”>Registration successful</div>
+.success {display: none;}
+
+$(‘.success’).show();
