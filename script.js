@@ -7,7 +7,7 @@ age = 43;
 
 $(document).ready(function(){
  $("#interactive-button").on("click", function(){
- alert("Wow");
+ alert("Oho");
  });
 });
 
